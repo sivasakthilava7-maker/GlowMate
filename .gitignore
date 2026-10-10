@@ -1,0 +1,27 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Private User Self-Care Data & Local Cache
+data/profile.json
+data/routine_tracker.json
+data/api_usage.json
+.cache/
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.swp
